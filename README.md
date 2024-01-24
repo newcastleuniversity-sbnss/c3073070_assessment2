@@ -16,5 +16,5 @@ R script in the repository (R_Script.sh) should be fully executable in R providi
 
 ### Differential Gene Expression Analysis of RNA-seq data
 
-The following analysis is conducted using the DESeq2 package for downsteam differential gen eepression analysis of  the publicly available dataset GSE116583 obtained from Gene Expression Omnibus (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116583 "@embed")
+The following analysis is conducted using the DESeq2 package for downsteam differential gene expression analysis of  the publicly available dataset [GSE116583]((https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116583 "@embed") obtained from Gene Expression Omnibus (GEO).
 
