@@ -26,8 +26,12 @@ The script outlines the following process:
 The following analysis is conducted using the DESeq2 package for downsteam differential gene expression analysis of  the publicly available dataset [GSE116583](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116583 "@embed") obtained from Gene Expression Omnibus (GEO).
 Information about the dataset: https://doi.org/10.1111/ajt.15751
 Download for 
-   [Count data](https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip "@embed") used in script
-   [RNA-Seq data for GSE116538](https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip "@embed")
+
+
+[Count data](https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip "@embed") used in script
+
+
+[RNA-Seq data for GSE116538](https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip "@embed")
 
 
 ## Results
