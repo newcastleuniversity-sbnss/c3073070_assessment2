@@ -1,9 +1,9 @@
-# Assignmnet 2
+# Assignmet 2
 
 Technical Report
 
 
-##Author
+## Author
 
 c3073070, Newcastle University 2024
 
