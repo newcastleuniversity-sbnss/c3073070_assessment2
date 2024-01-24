@@ -1,4 +1,4 @@
-# Assignmet 2
+# Assignment 2
 
 Technical Report
 
