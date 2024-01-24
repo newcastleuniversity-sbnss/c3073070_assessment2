@@ -10,7 +10,7 @@ c3073070, Newcastle University 2024
 
 ## Process 
 
-R script in the repository (R_Script.sh) should be fully executable in R providing the count data also provided in the repository is present inthe working directory.
+R script in the repository (R_Script.sh) should be fully executable in R providing the count data also provided in the repository is present in the working directory.
 
 
 
