@@ -1,0 +1,3 @@
+The quant.sf files:  https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip. 
+sample_table = read_csv('https://raw.githubusercontent.com/sjcockell/mmb8052/main/practicals/practical_08/data/sample_table.csv')
+gene_map = read_csv('https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/extdata/gene_map.csv')
