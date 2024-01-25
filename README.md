@@ -46,4 +46,5 @@ Images generated for the results section are stored in the Results folder access
 ## Software
 
 Salmon (v1.9.0)
+
 R (v4.3.2)
