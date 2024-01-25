@@ -31,11 +31,15 @@ library(dendextend)
 
 
 ### 1.0 Download data ###
+
+#downloading data 
 sample_table = read_csv('https://raw.githubusercontent.com/sjcockell/mmb8052/main/practicals/practical_08/data/sample_table.csv')
 files = pull(sample_table, Run)
 files = paste0('counts/', files, '/quant.sf')
 names(files) = pull(sample_table, Run)
 gene_map = read_csv('https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/extdata/gene_map.csv')
+
+#converting transcripot level abundance to gene level abundance or differential expression analysis
 txi = tximport(files,
                type='salmon',
                tx2gene=gene_map,
@@ -46,12 +50,16 @@ class(gene_map)
 
 
 ###  2.0 Differential gene expression analysis using DESeq2 ###
-
+#Create a DESeqDataSet object from tximport results and sample metadata
 dds = DESeqDataSetFromTximport(txi, colData = sample_table, design = ~ Group)
+#Estimate size factors to account for differences in library size
 dds = estimateSizeFactors(dds)
+#Estimate dispersions to model variability in the data
 dds = estimateDispersions(dds)
+#Conduct the Negative Binomial Wald Test for differential expression
 dds = nbinomWaldTest(dds)
 # the above 3 commands can be replaced by dds = DESeq(dds)
+#Finalize the DESeq analysis, accounting for multiple testing corrections
 dds = DESeq(dds)
 plotDispEsts(dds)
 
