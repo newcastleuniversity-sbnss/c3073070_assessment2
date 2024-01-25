@@ -264,7 +264,7 @@ filtered_results2 = mutate(filtered_results2, significant=padj<0.05)
 
 
 #add a column called combined_significance for identifying differentially expressed genes
-#assigning 
+
 filtered_results$combined_significance <- ifelse(
   filtered_results$significant == FALSE, 'non-significant',
   ifelse(filtered_results$log2FoldChange > 1, 'upregulated',
