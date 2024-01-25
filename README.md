@@ -16,7 +16,7 @@ The script outlines the following process:
 
 * Data installation
 * Preparation of count data
-* Data Quality control (ispersion estimation, PCA, Heirarchical clustering)
+* Data Quality control (Dispersion estimation, PCA, Heirarchical clustering, heatmap)
 * Differential gene expression analysis using DESeq2 package
 * Extraction of gene annotations from paired transcriptome database
 * Generation of Volcano plots
