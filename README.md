@@ -32,11 +32,11 @@ Download for:
 
 [Count data](https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip "@embed") used in script
 
-
 [RNA-Seq data for GSE116538](https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip "@embed")
 
 
-## Results
+## Result
+
 
 
 
