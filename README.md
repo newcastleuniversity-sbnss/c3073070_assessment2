@@ -28,6 +28,8 @@ The following analysis is conducted using the DESeq2 package for downsteam diffe
 Information about the dataset: https://doi.org/10.1111/ajt.15751
 
 
+## Data
+
 Download for: 
 
 [Count data](https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip "@embed") used in script
@@ -35,7 +37,9 @@ Download for:
 [RNA-Seq data for GSE116538](https://github.com/sjcockell/mmb8052/raw/main/practicals/practical_08/results/counts.zip "@embed")
 
 
-## Result
+
+
+## Results
 
 
 
