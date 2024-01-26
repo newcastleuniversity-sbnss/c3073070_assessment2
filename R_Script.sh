@@ -136,53 +136,6 @@ pca_1 <- pca_1 + stat_ellipse(geom = "polygon", aes(group = Group, color = Group
   scale_fill_manual(values = c("Naive" = "#E69F00", "Allo2h" = "#CC79A7", "Allo24h" = "#56B4E9"))
 pca_1
 
-## 3d pca plot for three dimnensional visualisation ##
-## NOTE: 3D PCA was not utilised for this dataet as the eigenvalues determined 2 PCs to explain enough variance for a 2D PCA. 
-        #This script can be uncommented for use in datasets in which 3 principal components are necessary  to cover sufficient variance.
-
-#pca_result <- prcomp(t(assay(rld)))
-
-# Extract PC scores
-#pca_scores <- as.data.frame(pca_result$x)
-
-#print(pca_scores)
-
-# Include Group information
-#pca_scores$Group <- colData(rld)$Group
-#pca_scores$Sample_Name <- colData(rld)$Sample_Name
-#str(rld)
-#view(pca_scores)
-#colnames(colData(rld))
-
-#pca_scores$Group <- factor(pca_scores$Group, levels = c("Naive", "Allo2h", "Allo24h"))
-#color_scale <- c("Naive" = "#E69F00", "Allo2h" = "#CC79A7", "Allo24h" = "#56B4E9")
-
-#pca_plot_3d <- plot_ly(
-#data = pca_scores,
-#x = ~PC1,
-#y = ~PC2,
-#z = ~PC3,
-#color = ~Group,
-#colors= color_scale,
-#shape = ~Group,
-# text = ~Sample_Name,
-#type = "scatter3d",
-#mode = "markers")
-
-
-#layout <- list(
-#title = "3D PCA Plot",
-#scene = list(
-#xaxis = list(title = "PC1"),
-#yaxis = list(title = "PC2"),
-#zaxis = list(title = "PC3")))
-
-#pca_plot_3d <- pca_plot_3d %>% layout(layout)
-#pca_plot_3d
-#str(pca_scores)
-
-
-
 
 ## heirarchical clustering ##
 # Dendrogram
